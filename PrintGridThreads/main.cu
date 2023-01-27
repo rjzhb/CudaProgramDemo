@@ -53,7 +53,6 @@ int main() {
     unsigned int *gpu_block_x;
     unsigned int *gpu_block_y;
     unsigned int *gpu_thread;
-    unsigned int *gpu_warp;
     unsigned int *gpu_calc_thread;
     unsigned int *gpu_xthread;
     unsigned int *gpu_ythread;
