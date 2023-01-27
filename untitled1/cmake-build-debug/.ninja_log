@@ -1,7 +1,0 @@
-# ninja log v5
-0	4532	6964525793939915	CMakeFiles/untitled1.dir/main.cu.obj	e1fe6775514d1f53
-4535	6418	6964525812856826	CMakeFiles/untitled1.dir/cmake_device_link.obj	8f7146c6e5eada3d
-6418	6767	6964525816346798	untitled1.exe	240db86cde7c188b
-2	4786	6965092549990968	CMakeFiles/untitled1.dir/main.cu.obj	e1fe6775514d1f53
-4787	6676	6965092568936861	CMakeFiles/untitled1.dir/cmake_device_link.obj	8f7146c6e5eada3d
-6676	7012	6965092571922624	untitled1.exe	240db86cde7c188b
