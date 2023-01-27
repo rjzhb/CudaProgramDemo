@@ -1,0 +1,16 @@
+# ninja log v5
+0	4442	6965357861395842	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+4444	6249	6965357879517581	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+6249	6591	6965357882932574	PrintGridThreads.exe	a1f8fc91182c8387
+3	4029	6965358207208852	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+4030	5825	6965358225246244	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+5825	5978	6965358226615286	PrintGridThreads.exe	a1f8fc91182c8387
+2	4064	6965359709688078	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+4065	5983	6965359728952868	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+5983	6213	6965359731051143	PrintGridThreads.exe	a1f8fc91182c8387
+2	4057	6965360249443744	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+4057	5880	6965360267732845	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+5880	6032	6965360269091465	PrintGridThreads.exe	a1f8fc91182c8387
+3	3812	6965360392233732	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+3812	5634	6965360410514151	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+5634	5854	6965360412514171	PrintGridThreads.exe	a1f8fc91182c8387
