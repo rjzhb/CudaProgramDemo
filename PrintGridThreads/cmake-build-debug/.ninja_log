@@ -14,3 +14,9 @@
 3	3812	6965360392233732	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
 3812	5634	6965360410514151	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
 5634	5854	6965360412514171	PrintGridThreads.exe	a1f8fc91182c8387
+2	4154	6965373878544028	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+4154	5893	6965373895988826	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+5893	6052	6965373897395942	PrintGridThreads.exe	a1f8fc91182c8387
+2	4107	6965374586769943	CMakeFiles/PrintGridThreads.dir/main.cu.obj	fbe6df60399677d3
+4107	5904	6965374604799962	CMakeFiles/PrintGridThreads.dir/cmake_device_link.obj	f8cf29106deca486
+5904	6120	6965374606780493	PrintGridThreads.exe	a1f8fc91182c8387
