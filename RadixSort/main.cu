@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-__host__ void radix_sort(std::vector<uint32_t> data) {
+__host__ void radix_sort(std::vector<uint32_t> &data) {
     const int len = data.size();
 
     uint32_t cpu_tmp_0[len];
@@ -29,7 +29,7 @@ __host__ void radix_sort(std::vector<uint32_t> data) {
 }
 
 //gpu
-__device__ void radix_sort_gpu(std::vector<uint32_t> data, const uint32_t tid, const uint32_t num_threads) {
+__device__ void radix_sort_gpu(std::vector<uint32_t> &data, const uint32_t tid, const uint32_t num_threads) {
     const int len = data.size();
 
     uint32_t cpu_tmp_0[len];
@@ -59,11 +59,13 @@ __device__ void radix_sort_gpu(std::vector<uint32_t> data, const uint32_t tid, c
     __syncthreads();
 }
 
-__global__ void sort(std::vector<int> &data){
-    radix_sort_gpu(data,threadIdx.x, blockDim.x * blockIdx.x)
+__global__ void sort(std::vector<uint32_t> &data) {
+    radix_sort_gpu(data, threadIdx.x, blockDim.x);
 }
 
 int main() {
+    std::vector<uint32_t> data{3, 8, 1, 4, 9, 5};
+
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
