@@ -414,8 +414,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/Projects/CudaProgram/histogram/cmake-build-debug",
-		"source" : "E:/Projects/CudaProgram/histogram"
+		"build" : "E:/Projects/CudaProgram/RadixSort/cmake-build-debug",
+		"source" : "E:/Projects/CudaProgram/RadixSort"
 	},
 	"version" : 
 	{
