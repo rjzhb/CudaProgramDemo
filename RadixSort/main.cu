@@ -192,6 +192,7 @@ __device__ void merge_array_parallel2(
                 const uint32_t val2_idx = tid + tid_max;
                 const uint32_t val2 = reduction_val[val2_idx];
 
+
                 if (reduction_val[tid] > val2) {
                     reduction_val[tid] = val2;
                     reduction_idx[tid] = reduction_idx[val2_idx];
@@ -217,7 +218,7 @@ __device__ void copy_data_to_shared(
         const uint32_t num_elements,
         const uint32_t tid
 ) {
-    for (uint32_t i = 0; i < num_elements; i + = num_lists) {
+    for (uint32_t i = 0; i < num_elements; i += num_lists) {
         sort_tmp[i + tid] = data[i + tid];
     }
     __syncthreads();

@@ -1,10 +1,6 @@
-"E:\Tools\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/Tools/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S E:\Projects\CudaProgram\RadixSort -B E:\Projects\CudaProgram\RadixSort\cmake-build-debug
--- The CUDA compiler identification is NVIDIA 12.0.76
--- Detecting CUDA compiler ABI info
--- Detecting CUDA compiler ABI info - done
--- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin/nvcc.exe - skipped
--- Detecting CUDA compile features
--- Detecting CUDA compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: E:/Projects/CudaProgram/RadixSort/cmake-build-debug
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /usr/bin/zsh -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/e/Projects/CudaProgram/RadixSort/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/e/Projects/CudaProgram/RadixSort -B /mnt/e/Projects/CudaProgram/RadixSort/cmake-build-debug"
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.23 or higher is required.  You are running version 3.16.3
+
+
+-- Configuring incomplete, errors occurred!
