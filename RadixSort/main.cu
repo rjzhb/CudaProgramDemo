@@ -20,6 +20,7 @@ __host__ void radix_sort(std::vector<uint32_t> &data) {
             }
         }
 
+        
         //合并
         for (int i = 0; i < x; i++) {
             data[i] = cpu_tmp_0[i];
@@ -241,9 +242,3 @@ __global__ void sort(
 
 }
 
-int main() {
-    std::vector<uint32_t> data{3, 8, 1, 4, 9, 5};
-
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
